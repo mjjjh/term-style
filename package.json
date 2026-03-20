@@ -1,0 +1,63 @@
+{
+  "name": "term-style",
+  "version": "1.0.0",
+  "description": "Terminal fancy output library with chainable API - colors, styles, boxes, progress bars, spinners, and tables",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "prepublishOnly": "npm run build",
+    "example": "npx tsx example.ts"
+  },
+  "keywords": [
+    "terminal",
+    "console",
+    "color",
+    "ansi",
+    "style",
+    "cli",
+    "progress",
+    "progress-bar",
+    "spinner",
+    "table",
+    "box",
+    "chalk",
+    "colors",
+    "log",
+    "formatting",
+    "output",
+    "chain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjjjh/term-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mjjjh/term-style/issues"
+  },
+  "homepage": "https://github.com/mjjjh/term-style#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
