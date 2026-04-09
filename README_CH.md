@@ -1,4 +1,4 @@
-# term-style
+# @myuym/term-style
 
 一个轻量级、零依赖的 Node.js 终端输出美化库，通过**链式调用 API** 让命令行输出更加丰富多彩。
 
@@ -25,7 +25,7 @@
 ## 安装
 
 ```bash
-npm install term-style
+npm install @myuym/term-style
 ```
 
 ## 快速开始
@@ -462,7 +462,7 @@ import t, {
   ProgressOptions,
   ProgressBar,
   Spinner
-} from 'term-style';
+} from '@myuym/term-style';
 ```
 
 ### 类型定义

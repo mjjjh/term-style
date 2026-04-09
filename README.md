@@ -1,17 +1,17 @@
-# term-style
+# @myuym/term-style
 
 Terminal fancy output library with chainable API. Make your CLI output colorful and beautiful.
 
 ## Installation
 
 ```bash
-npm install term-style
+npm install @myuym/term-style
 ```
 
 ## Quick Start
 
 ```typescript
-import t from 'term-style';
+import t from '@myuym/term-style';
 
 // Simple colors
 t.red('Red text');
@@ -176,7 +176,7 @@ console.log(t.colorLevel);    // 0, 1, 2, or 3
 ## Examples
 
 ```typescript
-import t from 'term-style';
+import t from '@myuym/term-style';
 
 // Header
 t.cyan.bold('═══════════════════════════════════════');
