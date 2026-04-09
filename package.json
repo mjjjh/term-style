@@ -1,6 +1,6 @@
 {
   "name": "@myuym/term-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Terminal fancy output library with chainable API - colors, styles, boxes, progress bars, spinners, and tables",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
